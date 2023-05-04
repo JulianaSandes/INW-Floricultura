@@ -2,15 +2,13 @@ import Menu from "./Menu.JSX"
 
 function Home(){
  return(
- <div>
+ <div className="container-index">
     <div className="rodape-cima">
-    <img src="/src/imagens/Logo_flor-linda.png" alt="" />
+    <img src="/src/imagens/Logo_flor-linda.png" alt="logo" />
     <h1>Dona flor-linda</h1>
     <Menu/>
     </div>
-    <div>
-    <img src="/src/imagens/flores-fundo.jpeg" alt="" />
-    </div>
+    <img src="/src/imagens/flores-fundo.jpg" alt="" />
  
  </div>
  )

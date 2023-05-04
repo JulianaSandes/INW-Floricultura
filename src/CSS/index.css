@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+.container-index{
+    min-height: 60vh;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    background-color: #fff;
+    color: black;
+    
+    font-family: 'Comfortaa', cursive;
+  }
+
+.rodape-cima{
+    align-items: center;
+    font-family: 'Comfortaa';
+    display: flex;
+}
+
+.rodape-cima img{
+    height: 100px;
+    width: 100px;
+}
+
+.flor-fundo{
+    height: 50px;
+    width: 50px;
+}
