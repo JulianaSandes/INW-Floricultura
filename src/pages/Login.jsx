@@ -33,7 +33,6 @@ function Login(){
  
   <div className="container">
       <div className="borda "></div>
- 
       <h3 className="title"> Faça o seu login!</h3>
       <form className="form" onSubmit={sendEmail}>
         <input

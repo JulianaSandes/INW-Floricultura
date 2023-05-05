@@ -8,7 +8,7 @@
   background-color: 	#ffecf0;
   color: #FFF;
   
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
 }
 
 .title{
@@ -21,6 +21,7 @@
   margin-bottom: 5px;
   font-size: 20px;
   font-weight: 15;
+  color: black;
   
 }
 
@@ -37,7 +38,7 @@
   border-radius: 6px;
   border: 0;
   padding: 0 9px;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
   font-weight: bold;
 }
 
@@ -51,7 +52,7 @@
 }
 
 .button{
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa';
   height: 34px;
   border-radius: 4px;
   border: 0;

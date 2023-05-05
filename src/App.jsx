@@ -7,7 +7,7 @@ import './CSS/index.css';
 
 function App(){
  return(
- <div className="links">
+ <div>
 <BrowserRouter>
       <Routes>
             <Route path="/" element={<Home/>}/>

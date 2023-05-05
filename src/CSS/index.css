@@ -6,10 +6,16 @@ body{
  background-color: #F7F8FA;
 }
 
+a{
+    color: #f8afaf;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Comfortaa';
+}
+
 .Menu{
-    margin-left: 100vh;
-    font-size: 20px;
-    background-color: #f8afaf;
+    margin-left: 90vh;
+    font-size: 25px;
 }
 
 .container-cima{
@@ -23,24 +29,57 @@ body{
   }
 
 .container-sobre{
+    display: flex;
     margin: 100px;
     min-height: 60vh;
-    display: flex;
-    align-items: left;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #F7F8FA;
     font-family: 'Comfortaa', 'Poppins';
 
 }
 
+.textos{
+    flex-direction: column;
+
+}
+
+.topicos{
+    margin-bottom: 5px;
+    font-family: 'Poppins';
+    font-size: 15px;
+  }
+  
+  .tam-vaso{
+      display: flex;
+      margin-left: 100px;
+      width: 500px;
+      height: 400px;
+  
+  }
+  
+
 .container-rodape{
-    min-height: 60vh;
     display: flex;
-    align-items: left;
+    min-height: 60vh;
+    align-items: center;
+    text-align: center;
     flex-direction: column;
     background-color: #000;
+    color: #fff;
     font-family: 'Comfortaa', 'Poppins';
 
+}
+
+.container-rodape img{
+    display: flex;
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+}
+
+.container-rodape p{
+    margin-top: 15px;
+    font-family: 'Poppins';
 }
 
 .quadrado-info{
@@ -48,36 +87,43 @@ body{
     position: absolute;
     align-items: center;
     opacity: 0.9;
-    margin-left: 200px;
-    margin-top: 200px;
-    width: 1000px;
+    margin-left: 230px;
+    margin-top: 230px;
+    width: 900px;
     height: 400px;
 }
 
 .quadrado-info img{
+    margin-left: 40%;
+    margin-top: 30px;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
 
 }
 
 .quadrado-info h1{
+    text-align: center;
     align-items: center;
+    font-size: 40px;
+
+}
+
+.quadrado-info h2{
+    background-color: #ff93ac;
+    width: 550px;
+    margin-left: 170px;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
     font-size: 30px;
-
 }
 
-.topicos{
-  margin-bottom: 5px;
-  font-family: 'Poppins';
-  font-size: 15px;
-}
-
-.tam-vaso{
-    display: flex;
-    width: 400px;
-    height: 300px;
-
+.quadrado-info h3{
+    margin-top: 25px;
+    text-align: center;
 }
 
 .rodape-cima{
@@ -101,15 +147,4 @@ body{
     margin-top: 40px;
     color: #fff;
     width: 200vh;
-}
-
-.container-rodape img{
-    margin: 50px;
-    height: 200px;
-    width: 200px;
-}
-
-.container-rodape h1{
-    display: flex;
-    color: #fff;
 }

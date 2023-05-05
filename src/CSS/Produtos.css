@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.container-produtos{
+    min-height: 200vh;
+    display: flex;
+    flex-direction: column;
+    background-color: 	#ffecf0;
+  }
+
+.titulo{
+    margin-top: 50px;
+    font-family: 'Comfortaa';
+    font-size: 40px;
+    text-align: center;
+    color: #ff93ac;
+}
+
+.subtitulo{
+    font-family: 'Poppins';
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-top: 0.1px;
+}
+
+.separador{
+    margin-top: 0.5px;
+    color: #fff;
+    width: 200vh;
+}
+
+.Flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-group{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    width: 400px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.192);
+    min-width: 250px;
+    margin: 50px;
+  }
+  
+.card-img{
+  width: 400px;
+  height: 500px;
+}
+
+.card-flor{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Comfortaa';
+    font-size: 20px;
+    text-align: left;
+    color: #ff93ac;
+}
+
+.card-preco{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: 'Poppins';
+    font-size: 20px;
+    text-align: left;
+    color: #000000;
+}
+  
