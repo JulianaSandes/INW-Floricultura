@@ -9,14 +9,12 @@ function App(){
  return(
  <div className="links">
 <BrowserRouter>
-    <div className="teste">
       <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/produtos" element={<Produtos/>}/>
             <Route path="/login" element={<Login/>}/>
-        </Routes>'
-    </div>
- </BrowserRouter>
+        </Routes>
+    </BrowserRouter>
  </div>
  )
 }

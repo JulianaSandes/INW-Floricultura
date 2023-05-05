@@ -28,7 +28,7 @@ function Login(){
 <div className="rodape-cima">
     <img src="/src/imagens/Logo_flor-linda.png" alt="" />
     <h1>Dona flor-linda</h1>
-    <Menu/>
+    <div className="Menu"><Menu/></div>
     </div>
  
   <div className="container">
