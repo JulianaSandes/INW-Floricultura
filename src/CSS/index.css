@@ -14,8 +14,8 @@ a{
 }
 
 .Menu{
-    margin-left: 90vh;
-    font-size: 25px;
+    margin-left: 60vh;
+    font-size: 20px;
 }
 
 .container-cima{
@@ -40,6 +40,7 @@ a{
 
 .textos{
     flex-direction: column;
+    margin-top: 5%;
 
 }
 
@@ -51,16 +52,17 @@ a{
   
   .tam-vaso{
       display: flex;
-      margin-left: 100px;
-      width: 500px;
-      height: 400px;
+      margin-left: 10%;
+      width: 450px;
+      height: 350px;
+      margin-top: 8%;
   
   }
   
 
 .container-rodape{
     display: flex;
-    min-height: 60vh;
+    min-height: 100%;
     align-items: center;
     text-align: center;
     flex-direction: column;
@@ -87,9 +89,9 @@ a{
     position: absolute;
     align-items: center;
     opacity: 0.9;
-    margin-left: 230px;
-    margin-top: 230px;
-    width: 900px;
+    margin-left: 15%;
+    margin-top: 25%;
+    width: 70%;
     height: 400px;
 }
 
@@ -139,12 +141,12 @@ a{
 }
 
 .tam-img{
-    height: 100vh;
-    width: 215.5vh;
+    min-height: 100%;
+    min-width: 100%;
 }
 
 .linha{
     margin-top: 40px;
     color: #fff;
-    width: 200vh;
+    width: 99%;
 }
